@@ -3,19 +3,19 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "folderforge"
+name = "foldermaker"
 version = "1.0.0"
 description = "Create folders and files automatically from AI-generated text folder trees."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name" }
+    { name = "Aniruddha Singh" }
 ]
 requires-python = ">=3.9"
 keywords = ["folder", "tree", "scaffold", "project-generator", "ai"]
 
 [project.scripts]
-folderforge = "folderforge.builder:cli"
+folderforge = "foldermaker.builder:cli"
 
 [tool.setuptools.packages.find]
-include = ["folderforge*"]
+include = ["foldermaker*"]
