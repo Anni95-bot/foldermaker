@@ -1,0 +1,34 @@
+D:\MY_AGENT\
+│
+├── Modelfile
+├── main.py
+├── config\
+│   └── settings.py
+│
+├── core\
+│   ├── ollama_client.py
+│   ├── agent.py
+│   ├── planner.py
+│   └── tool_executor.py
+│
+├── tools\
+│   ├── web_search.py
+│   ├── browser.py
+│   ├── file_manager.py
+│   └── code_executor.py
+│
+├── memory\
+│   ├── database.py
+│   ├── long_term_memory.py
+│   └── feedback.py
+│
+├── knowledge\
+│   └── document_reader.py
+│
+├── task_manager\
+│   └── queue.py
+│
+├── logs\
+├── generated_tools\
+├── workspace\
+└── venv\
