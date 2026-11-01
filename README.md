@@ -24,7 +24,7 @@ Instead of manually creating every folder and file, paste the AI-generated struc
 1. Download or clone this repository.
 
 ```powershell
-git clone [https://github.com/your-username/foldermaker.git]
+git clone [https://github.com/Anni95-bot/foldermaker.git]
 cd foldermaker
 ```
 
